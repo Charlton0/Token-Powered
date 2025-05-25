@@ -1,0 +1,48 @@
+.mint-container {
+  padding: 20px;
+  max-width: 500px;
+  margin: auto;
+  text-align: center;
+}
+
+.mint-form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 20px;
+}
+
+.mint-input,
+.mint-textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+.mint-textarea {
+  min-height: 100px;
+  resize: vertical;
+}
+
+.mint-button {
+  padding: 10px;
+  background-color: #4a90e2;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.mint-button:disabled {
+  background-color: #aaa;
+  cursor: not-allowed;
+}
+
+.tx-hash {
+  margin-top: 10px;
+  font-size: 14px;
+  word-break: break-all;
+}

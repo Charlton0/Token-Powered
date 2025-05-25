@@ -1,0 +1,31 @@
+.reward-log {
+  padding: 20px;
+  max-width: 900px;
+  margin: auto;
+}
+
+.event-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 30px;
+}
+
+.event-table th,
+.event-table td {
+  border: 1px solid #ccc;
+  padding: 8px 12px;
+  text-align: left;
+}
+
+.event-table th {
+  background-color: #f5f5f5;
+}
+
+.event-table a {
+  color: #4a90e2;
+  text-decoration: none;
+}
+
+.event-table a:hover {
+  text-decoration: underline;
+}
