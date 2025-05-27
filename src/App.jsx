@@ -1,16 +1,12 @@
 import React, { useState } from "react";
-import WalletConnection from "./WalletConnection";
-import MintNFT from "./MintNFT";
-import RewardLog from "./RewardLog";
-import Gallery from "./Gallery";
+import WalletConnection from "./components/WalletConnection";
+import MintNFT from "./components/MintNFT";
+import RewardLog from "./components/RewardLog";
+import Gallery from "./components/Gallery";
 
 function App() {
-  const [count, setCount] = useState(0);
   const [contract, setContract] = useState(null);
   const [account, setAccount] = useState(null);
-
-  // Pass down contract and account from WalletConnection
-  // You can lift the state up or implement context/provider pattern for better management
 
   return (
     <div>

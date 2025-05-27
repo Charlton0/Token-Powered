@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { NFTStorage, File } from "nft.storage";
 import { ethers } from "ethers";
-import "./MintNFT.css";
+import "./MintNFT.module.css";
 
 const NFT_STORAGE_TOKEN = "YOUR_NFT_STORAGE_API_KEY"; // Replace with your token
 

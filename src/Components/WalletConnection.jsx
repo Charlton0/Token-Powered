@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { ethers } from "ethers";
 import Web3Modal from "web3modal";
-import NFTPlatformABI from "./NFTPlatformABI.json"; // Your contract ABI here
+import NFTPlatformABI from "./NFTPlatformABI.json"; //contract ABI here
 
 const CONTRACT_ADDRESS = "your_contract_address_here";
 
